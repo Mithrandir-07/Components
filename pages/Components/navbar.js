@@ -1,5 +1,4 @@
 import Link from "next/link";
-import App from "./App";
 
 const Navbar = () => {
 
@@ -13,7 +12,6 @@ const Navbar = () => {
             <div class="space-x-5">
                 <Link href="/Components/about" class="hover:underline">About</Link>
                 <Link href="/Components/contacts" class="hover:underline">Contacts</Link>
-                <Link href="/Components/redux" class="hover:underline">Payment</Link>
             </div>
         </nav>
     );
