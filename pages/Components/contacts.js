@@ -5,7 +5,9 @@ const Contacts = () => {
 
     return (
         <div class="text-center my-20">
+
             <Navbar />
+
             <div class="text-center my-10">
             Contacts
             </div>
@@ -14,26 +16,26 @@ const Contacts = () => {
             space-y-5 md:space-y-0 px-3 sm:px-0">
 
                 <div class="mx-10">
-                    <div>
+                    <div class="hover:underline">
                         2938749283
                     </div>
-                    <div>
+                    <div class="hover:underline">
                         1234125663
                     </div>
-                    <div>``
+                    <div class="hover:underline">
                         2134521466
                     </div>
                 </div>
 
                 <div>
                     <div>
-                        Asdfsdfg UYGusdf
+                        Logvinov Vlad
                     </div>
                     <div>
-                        JKHGkjhgf DSFJhfg
+                        Jyperkov Oleg
                     </div>
                     <div>
-                        JSHDgj SFDKJBkj
+                        Procopenko Kostya
                     </div>
 
                 </div>
