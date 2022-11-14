@@ -6,19 +6,6 @@ const Body = () => {
 
     return (
         <div>
-            <header class="container mx-auto px-5">
-                <div class="flex justify-between pt-10">
-        
-                    <span class="fond-bpld text-3xl">
-                        Tailwind
-                    </span>
-        
-                    <div class="space-x-5">
-                        <a href="" class="hover:underline">About</a>
-                        <a href="" class="hover:underline">Contacts</a>
-                    </div>
-                    </div>
-                </header> 
         
                 <div class="container mx-auto py-big px-3 sm:px-0 my-10">
                     <h1 class="text-center text-3xl fond-bold">TailwindCSS</h1>
@@ -32,7 +19,7 @@ const Body = () => {
                     <div class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-700">Button4</div>
                     <div class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-700">Button5</div>
                 </div>
-         </div> 
+        </div> 
     );
 }
 
