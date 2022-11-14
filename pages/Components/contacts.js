@@ -1,9 +1,11 @@
 import Link from "next/link";
+import Navbar from "./navbar";
 
 const Contacts = () => {
 
     return (
         <div class="text-center my-20">
+            <Navbar />
             <div class="text-center my-10">
             Contacts
             </div>
