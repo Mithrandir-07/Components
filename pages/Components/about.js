@@ -5,7 +5,7 @@ import Navbar from "./navbar";
 const About = () => {
 
     return (
-        <div class="text-center my-10">
+        <div class="text-center">
             <Navbar />
             
             <div class="text-center my-20 mx-20 justify-center space-x-0 md:space-x-10 flex-col md:flex-row space-y-5 md:space-y-0 px-3 sm:px-0 bg-gray-700 rounded-3xl">

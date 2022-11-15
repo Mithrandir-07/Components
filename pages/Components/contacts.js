@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 const Contacts = () => {
 
     return (
-        <div class="text-center my-20">
+        <div class="text-center">
 
             <Navbar />
 
