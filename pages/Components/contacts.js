@@ -16,26 +16,40 @@ const Contacts = () => {
             space-y-5 md:space-y-0 px-3 sm:px-0">
 
                 <div class="mx-10">
-                    <div class="hover:underline">
-                        2938749283
-                    </div>
-                    <div class="hover:underline">
-                        1234125663
-                    </div>
-                    <div class="hover:underline">
-                        2134521466
-                    </div>
-                </div>
+                    <div class="hover:underline flex">
 
-                <div>
-                    <div>
-                        Logvinov Vlad
+                        <div class="mx-10">
+                            2938749283
+                        </div>
+
+                        <div>
+                         Logvinov Vlad
+                         </div>
+
                     </div>
-                    <div>
-                        Jyperkov Oleg
+
+                    <div class="hover:underline flex">
+
+                        <div class="mx-10">
+                            1234125663
+                        </div>
+
+                        <div>
+                            Jyperkov Oleg
+                         </div>
+
                     </div>
-                    <div>
-                        Procopenko Kostya
+
+                    <div class="hover:underline flex">
+
+                        <div class="mx-10">
+                             2134521466
+                        </div>
+
+                        <div>
+                             Procopenko Kostya
+                         </div>
+
                     </div>
 
                 </div>
