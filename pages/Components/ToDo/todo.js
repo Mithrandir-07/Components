@@ -25,10 +25,10 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
     <div
       className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
       key={index}
-      class="text-center bg-yellow-100 my-10 w-1/2 rounded-md mx-auto"
+     
     >
       <div key={todo.id} onClick={() => completeTodo(todo.id)}
-      class="py-5 text-center bg-green-300 rounded-md w-1/2 mx-auto">
+     >
         {todo.text}
       </div>
 
@@ -37,12 +37,12 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
         <RiCloseCircleLine
           onClick={() => removeTodo(todo.id)}
           className='delete-icon'
-          class="bg-red-500 w-10 h-10 rounded-md"
+         
         />
         <TiEdit
           onClick={() => setEdit({ id: todo.id, value: todo.text })}
           className='edit-icon'
-          class="bg-blue-500 w-10 h-10 rounded-md"
+         
         />
       </div>
     </div>
