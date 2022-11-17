@@ -25,22 +25,22 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
     <div
       className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
       key={index}
-      class="text-center w-100 bg-yellow-100"
+      class="text-center bg-yellow-100 my-10"
     >
       <div key={todo.id} onClick={() => completeTodo(todo.id)}>
         {todo.text}
       </div>
-      <div className='icons flex '
+      <div className='icons'
       class="bg-green-500">
         <RiCloseCircleLine
           onClick={() => removeTodo(todo.id)}
           className='delete-icon'
-          class="bg-red-500 resize"
+          class="bg-red-500 w-10 y-10"
         />
         <TiEdit
           onClick={() => setEdit({ id: todo.id, value: todo.text })}
           className='edit-icon'
-          class="bg-blue-500"
+          class="bg-blue-500 w-10 y-10"
         />
       </div>
     </div>
