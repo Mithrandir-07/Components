@@ -4,11 +4,11 @@ import Navbar from "./navbar";
 const Contacts = () => {
 
     return (
-        <div class="text-center">
+        <div class="text-center text-green-200">
 
             <Navbar />
 
-            <div class="text-center my-10">
+            <div class="text-center my-10 text-green-500 uppercase">
             Contacts
             </div>
 

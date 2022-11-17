@@ -9,13 +9,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: rgb(46, 53, 56);
-  color: rgb(218, 250, 215);
+  color: rgb(0, 0, 0);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+
 
 * {
   box-sizing: border-box;
@@ -137,7 +134,7 @@ button {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
+  }s
   body {
     color: white;
     background: black;

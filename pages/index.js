@@ -5,7 +5,6 @@ import Modal from './Components/Modal/modal';
 import Body from './Components/Body/body';
 import Navbar from './Components/navbar';
 
-
 const Home = () => {
   return (
     <div>

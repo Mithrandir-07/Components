@@ -5,7 +5,7 @@ const Body = () => {
 
 
     return (
-        <div>
+        <div class="text-green-200">
         
                 <div class="container mx-auto py-big px-3 sm:px-0 my-10">
                     <h1 class="text-center text-3xl fond-bold">TailwindCSS</h1>

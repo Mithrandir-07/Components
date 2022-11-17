@@ -15,7 +15,7 @@ function App() {
 
     return (
         <div className={'app'}>
-            <div class="mt-10">{cash}</div>
+            <div class="mt-10 text-green-200">{cash}</div>
             <div class="flex justify-center mb-20">
                 <button onClick={() => addCash()} class="bg-green-500">ADD</button>
                 <button onClick={() => getCash()} class="bg-red-500">GET</button>

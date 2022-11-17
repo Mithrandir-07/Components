@@ -9,11 +9,11 @@ const Navbar = () => {
                 Tailwind
             </span>
 
-            <div class="space-x-5">
+            <div class="space-x-5 text-blue-300 uppercase">
                 <Link href="/Components/about" class="hover:underline">About</Link>
                 <Link href="/Components/contacts" class="hover:underline">Contacts</Link>
                 <Link href="/Components/redux" class="hover:underline">Payment</Link>
-                <Link href="/Components/ToDo/todo" class="hover:underline">ToDo</Link>
+                <Link href="/Components/Todo/TodoList" class="hover:underline">ToDo</Link>
             </div>
         </nav>
     );
