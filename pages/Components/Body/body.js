@@ -13,12 +13,12 @@ const Body = () => {
                 </div>   
         
                 <div class="flex justify-center space-x-0 md:space-x-10 flex-col md:flex-row space-y-5 md:space-y-0 px-3 sm:px-0">
-                    <div class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-700">Button1</div>
-                    <div class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-700">Button2</div>
-                    <div class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-700">Button3</div>
-                    <div class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-700">Button4</div>
-                    <div class="bg-red-500 py-2 px-4 rounded-full hover:bg-red-700">Button5</div>
-                </div>
+                    <div class="bg-green-800 py-2 px-4 rounded-full hover:bg-green-600">Button1</div>
+                    <div class="bg-green-800 py-2 px-4 rounded-full hover:bg-green-600">Button2</div>
+                    <div class="bg-green-800 py-2 px-4 rounded-full hover:bg-green-600">Button3</div>
+                    <div class="bg-green-800 py-2 px-4 rounded-full hover:bg-green-600">Button4</div>
+                    <div class="bg-green-800 py-2 px-4 rounded-full hover:bg-green-600">Button5</div>
+                </div>    
         </div> 
     );
 }
