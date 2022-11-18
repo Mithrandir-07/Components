@@ -55,7 +55,7 @@ const Contacts = () => {
                 </div>
                 
             </div>
-            <Link href="/" class="bg-gradient-to-tr from-cyan-500 to-blue-700 py-2 px-4 rounded-full ">Home</Link>
+            <Link href="/" class="bg-gradient-to-tr from-cyan-500 to-blue-700 py-2 px-4 rounded-full text-black">Home</Link>
         </div>
     );
 }
