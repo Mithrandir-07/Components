@@ -35,8 +35,7 @@ function TodoForm(props) {
             ref={inputRef}
             className='todo-input edit'
           />
-          <button onClick={handleSubmit} className='todo-button edit'
-          class="bg-green-400">
+          <button onClick={handleSubmit} className='todo-button edit'>
             Update
           </button>
         </>
@@ -49,9 +48,9 @@ function TodoForm(props) {
             name='text'
             className='todo-input'
             ref={inputRef}
+            
           />
-          <button onClick={handleSubmit} className='todo-button' 
-          class="bg-green-400">
+          <button onClick={handleSubmit} className='todo-button'>
             Add todo
           </button>
         </>

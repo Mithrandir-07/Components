@@ -45,9 +45,10 @@ function TodoList() {
 
   return (
     <>
+    <div>
       <Navbar />
 
-      <h1 class="text-center my-10 text-lg text-green-400">What's the Plan for Today?</h1>
+      <h1 class="text-center">What's the Plan for Today?</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}
@@ -58,7 +59,7 @@ function TodoList() {
       <div class="text-center my-10">
         <Link href="/" class="bg-blue-400 py-2 px-4 rounded-full">Home</Link>
       </div>
-     
+      </div>
     </>
   );
 }
